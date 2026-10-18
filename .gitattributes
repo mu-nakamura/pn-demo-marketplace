@@ -1,0 +1,2 @@
+# 改行コードを LF に統一する（SKILL.md の frontmatter や marketplace.json を、どの環境でも LF で扱うため）
+* text=auto eol=lf

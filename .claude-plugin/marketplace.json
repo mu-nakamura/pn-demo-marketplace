@@ -1,0 +1,26 @@
+{
+  "name": "pn-demo-market",
+  "owner": {
+    "name": "LYKEION"
+  },
+  "metadata": {
+    "version": "0.1.0",
+    "description": "PersoNauts の考え方（判断と理由を記録に残し、次回は記録を前提に再開する）を Treasure AI Studio で見せるためのデモ用スキル集"
+  },
+  "plugins": [
+    {
+      "name": "pn-demo",
+      "description": "ペルソノーツの考え方のデモ。指揮役・企画役・検証役のスキルと、OKF 形式の判断記録（records/）で、続く仕事の再開と別の役割による確認を見せる。架空の題材（北精機・経営企画）が付属。",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/setup",
+        "./skills/conductor",
+        "./skills/planner",
+        "./skills/verifier",
+        "./skills/check",
+        "./skills/reset"
+      ]
+    }
+  ]
+}

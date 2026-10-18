@@ -1,0 +1,27 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Office / sync tool temporary files
+~$*
+.~lock.*#
+*.tmp
+
+# Local work (Studio demo runs, scratch)
+archive/
+.claude/settings.local.json
+.env
+.env.*
