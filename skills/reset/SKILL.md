@@ -15,7 +15,7 @@ description: デモをやり直すために、records/ と drafts/ を archive/ 
    - 時刻を取る：`TZ=Asia/Tokyo date +%Y%m%d-%H%M%S`
    - `archive/<時刻>/` を作り、`records/` と `drafts/` を**移動**する（`mv`。コピー後の削除はしない）。
    - `inputs/` はそのままにする。
-4. 初期化する：`records/` を空のディレクトリとして作り直し、`drafts/` を作り直して、`drafts/board_v0.md` を `/pn-demo:setup` の内容で置く。`inputs/kita_notes.md` が無ければ同様に置く。
+4. 初期化する：`records/` を作り直し、`/pn-demo:setup` の内容で空の `records/index.md` を置き、`drafts/` を作り直して、`drafts/board_v0.md` を `/pn-demo:setup` の内容で置く。`inputs/kita_notes.md` が無ければ同様に置く。
 5. 報告する：退避先のパス、初期化後の状態、次の一手（新しいチャットで `/pn-demo:conductor` から）。
 
 ## やらないこと
